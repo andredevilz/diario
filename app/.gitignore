@@ -1,0 +1,27 @@
+# Laravel & PHP
+/vendor/
+/node_modules/
+bootstrap/cache/
+storage/*.key
+storage/app/*.sqlite
+storage/app/private/
+storage/framework/*
+storage/logs/*
+!storage/app/public/**
+
+# Ambiente & chaves
+.env
+.env.*
+!.env.example
+
+# IDEs / SO
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Mix/Vite
+public/hot
+public/build
+resources/css/*.css.map
+resources/js/*.js.map
